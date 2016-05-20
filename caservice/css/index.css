@@ -9,7 +9,7 @@ body {
   /*background-size: cover;*/
 	background-position: top center;
 	background-color: #000;
-	z-index: 30
+	z-index: 30;
 }
 header {
 	width:1280px;
@@ -58,8 +58,20 @@ header {
 	width: auto;
 	height: auto;
 	z-index: 10;
-	}
+}
 
+.main_text{
+	position: absolute;
+top: 480px;
+z-index: 52;
+left: 127px;
+}
+.scroll_img {
+	position: absolute;
+    top: 530px;
+    z-index: 52;
+    left: 572px;
+}
 
 .mainbg{
 	position: absolute;
@@ -117,7 +129,7 @@ header {
 
 .top_bar{
   width: 100%;
-  z-index: 50;
+  z-index: 55;
 　display: flex;
 	top:0;
   justify-content: space-between;
@@ -134,5 +146,5 @@ header {
 .service_content li {
 	margin-top: 27px;
 	margin: 6px;
-	margin-top: 5px;
+	padding-top: 19px;
 	}
