@@ -1,0 +1,138 @@
+body {
+	font-size:14px;
+	font-family:"游ゴシック体",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	line-height:1.6;
+
+}
+#wrapper{
+  background: url(../img/background.png) 0 0 no-repeat;
+  /*background-size: cover;*/
+	background-position: top center;
+	background-color: #000;
+	z-index: 30
+}
+header {
+	width:1280px;
+	margin: 0 auto;
+	height:400px;
+}
+
+.top_nav {
+	width: 343px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 70px;
+}
+.top_nav ul {
+	margin-top: 19px;
+}
+
+.top_nav>li {
+	color: #ffffff;
+	font-size:16px;
+	letter-spacing: 1.2px;
+	margin-top: 17px;
+}
+
+.top_nav>li a:link, a:visited, a:active {
+	color: #ffffff;
+	font-size:16px;
+	letter-spacing: 1.2px;
+	text-decoration: none;
+	margin-top: 17px;
+
+}
+
+/*メインビジュアル*/
+
+#main_visual{
+	width: 1280px;
+  margin: 0 auto;
+	height: 624px;
+	overflow: hidden;
+}
+#main_visual video{
+	margin-top: -50px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 10;
+	}
+
+
+.mainbg{
+	position: absolute;
+	left:0;
+	right: 0;
+	margin: 0 auto;
+	top:0;
+	z-index: 10;
+	/*width: 100%;*/
+	width: 1280px;
+	height: 624px;
+	background: url(../img/back_cut2.png) 0 0 no-repeat;
+	background-size: cover;
+
+}
+#service {
+	/*position: absolute;
+	width: 100%;
+	z-index: 50;*/
+}
+
+
+#service h2{
+	width: 231px;
+	margin: 0px auto;
+}
+
+#service h2 img {
+	width: 227px;
+	height: 181px;
+}
+
+#service_navi>ul {
+	width: 910px;
+  margin: -88px auto;
+}
+
+#service_navi li{
+	float: left;
+}
+
+/*
+#service_01{
+	position: absolute;
+	width: 100%
+	text-align: center;
+}
+*/
+
+.service_content {
+	width: 100%;
+  clear: both;
+  display: flex;
+}
+
+.top_bar{
+  width: 100%;
+  z-index: 50;
+　display: flex;
+	top:0;
+  justify-content: space-between;
+	position: fixed;
+}
+
+.top_bar nav {
+	width: 1280px;
+	height: 144px;
+	background: url("../img/header.png") no-repeat;
+	margin: 0 auto;
+}
+
+.service_content li {
+	margin-top: 27px;
+	margin: 6px;
+	margin-top: 5px;
+	}
